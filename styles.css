@@ -21,3 +21,33 @@ ul {
         height: 100px;
         margin: 10px;
  }
+ 
+ /* Classes start with a dot */
+
+ .bw-10 {
+    border-width: 10px;
+ }
+
+ .bc-blk {
+     border-color: black;
+ }
+
+ .dot {
+     border-style: dotted;
+ }
+
+ .bd-top-yw {
+     border-top-color: yellow;
+ }
+
+ .bd-left-char {
+     border-left-color: chartreuse;
+
+ }
+ .bd-right-ab{ 
+     border-right-color: aliceblue;
+
+ } 
+ .bd-bt-sm{
+    border-bottom-color: salmon;
+ }
