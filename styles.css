@@ -1,0 +1,23 @@
+p {
+        color: darksalmon;
+}
+div p {
+        color: black;
+        font-size: 22px;
+}
+ul {
+        background-color: beige;
+        list-style: none;
+        border:  1px dashed black;
+        padding-left: 30%;
+    
+}
+ li {
+        display: inline-block;
+        display: inline-block;
+        background-color: burlywood;
+        border: 1px soild red;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+ }
