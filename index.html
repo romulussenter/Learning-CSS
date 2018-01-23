@@ -5,18 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv=c"X-UA-Compatible" content="ie=edge">
     <title>Learning-CSS</title>
+    <style>
+        p{
+            color: darksalmon;
+        }
+        div p{
+            color: black;
+            font-size: 22px;
+        }
+    </style>
 </head>
-<body>
+    <body>
     <!-- These are inline styles and probably the difficult to maintain in large project -->
-    <!-- These are a last ditch effort -->
-   <h1 style="color:chartreuse; background:tomato">Learning-CSS</h1>
-   <h1 style="border:10px dotted blue">Also other styles</h1>
-   <h1 style="border:10px dotted; border-left: dotted chartreuse; border-center dotted yellow; border-right:salmon;"></h1>
-    <h1 style="border-width: 10px;
-            border-top-color: yellow;
-            border-left-color: chartreuse;
-            border-bottom-color: salmon;
-            border-right-color: aliceblue;
-            border-style: dotted;">Gaudy Border</h1>
-</body>
+        <!-- These are a last ditch effort -->
+    <h1 style="color:chartreuse; background:tomato">Learning-CSS</h1>
+    <h1 style="border:10px dotted blue">Also other styles</h1>
+    <h1 style="border:10px dotted; border-left: dotted chartreuse; border-center dotted yellow; border-right:salmon;"></h1>
+        <h1 style="border-width: 10px;
+                border-top-color: yellow;
+                border-left-color: chartreuse;
+                border-bottom-color: salmon;
+                border-right-color: aliceblue;
+                border-style: dotted;">Gaudy Border</h1>
+
+    <!-- Internal styles -->
+    <!-- These are still page specific, but a little easier to maintain -->
+    <!-- Also these are easier to extract later -->
+        <p>I like cheese</p>
+        <div>
+            <p>I also like more cheese</p>
+        </div>
+        <ul>
+            <li>Gouda</li>
+            <li>Muenster</li>
+            <li>Gorgonzola</li>
+            <li>Brie</li>
+
+        </ul>
+    </body>
 </html>
