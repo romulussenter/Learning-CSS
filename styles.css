@@ -23,31 +23,45 @@ ul {
  }
  
  /* Classes start with a dot */
+.lr-bx {
+    background-color: blue;
+    border: solid;
+    border-color: blue;
+    height: 30rem;
+    width: 30rem;
+    
+    
+    
+    
 
- .bw-10 {
-    border-width: 10px;
+}
+
+.md-bx {
+    background-color: red;
+    border: solid;
+    border-color: red;
+    height: 20rem;
+    width: 20rem;
+    
+    
+}
+
+
+.sm-bx {
+background-color: yellow;
+border: solid;
+border-color: yellow;
+height: 10rem;
+width: 10rem;
+
+    
+}
+
+.pd-z {
+    padding: 5rem;
+
  }
-
- .bc-blk {
-     border-color: black;
- }
-
- .dot {
-     border-style: dotted;
- }
-
- .bd-top-yw {
-     border-top-color: yellow;
- }
-
- .bd-left-char {
-     border-left-color: chartreuse;
-
- }
- .bd-right-ab{ 
-     border-right-color: aliceblue;
-
- } 
- .bd-bt-sm{
-    border-bottom-color: salmon;
- }
+.mg-c {
+    margin: 25%;
+}
+ 
