@@ -1,0 +1,12 @@
+body{
+    background: black;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+.br {
+    border-color: black;
+    border-style: solid;
+    border: 500px;
+
+}
